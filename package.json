@@ -12,6 +12,20 @@
     "type": "git",
     "url": "git+https://github.com/JhonathanBld/test-omniChat.git"
   },
+  "jest": {
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "testRegex": "\\.test\\.ts",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -36,7 +50,6 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "jest": "^26.6.3",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.14",
     "nodemon": "^2.0.7",
@@ -44,6 +57,10 @@
     "ts-node": "^9.1.1"
   },
   "devDependencies": {
-    "ts-jest": "^26.5.0"
+    "@babel/preset-env": "^7.12.11",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.0",
+    "typescript": "^4.1.3"
   }
 }

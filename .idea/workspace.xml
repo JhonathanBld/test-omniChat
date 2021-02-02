@@ -20,14 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c00fe026-de34-4c5b-b3c8-6f43f63dfaed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/AuthController.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/UserController.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/users.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/AuthRoutes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/UserRoutes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/integration/user.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/babel.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,21 +44,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/__tests__/integration" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="D:\Programas\WebStorm\WebStorm 2020.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jhona\Documents\www\Pessoal\test-omniChat" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\www\Node\test-omniChat\__tests__\integration" />
       <recent name="C:\Users\jhona\Documents\www\Pessoal\test-omniChat" />
       <recent name="C:\Users\jhona\Documents\www\Pessoal\test-omniChat\__tests__" />
       <recent name="C:\Users\jhona\Documents\www\Pessoal\test-omniChat\src\routes" />
       <recent name="C:\Users\jhona\Documents\www\Pessoal\test-omniChat\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jhona\Documents\www\Pessoal\test-omniChat" />
     </key>
   </component>
   <component name="RunManager">
@@ -78,7 +82,10 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c00fe026-de34-4c5b-b3c8-6f43f63dfaed" name="Default Changelist" comment="" />
@@ -93,16 +100,12 @@
       <workItem from="1612221077588" duration="172000" />
       <workItem from="1612221401853" duration="3000" />
       <workItem from="1612221475045" duration="13277000" />
+      <workItem from="1612267134894" duration="7808000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/jest.config.js" />
-      </list>
-    </option>
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -133,21 +136,25 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="1699" y="279" key="FileChooserDialogImpl/0.0.2560.1050@0.0.2560.1050" timestamp="1612132027521" />
-    <state width="1256" height="345" key="GridCell.Tab.0.bottom" timestamp="1612228251622">
-      <screen x="0" y="0" width="2560" height="1050" />
+    <state width="1259" height="160" key="GridCell.Tab.0.bottom" timestamp="1612283935911">
+      <screen x="1366" y="0" width="1280" height="690" />
     </state>
+    <state width="1259" height="160" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1280.690@1366.0.1280.690" timestamp="1612283935911" />
     <state width="1256" height="345" key="GridCell.Tab.0.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1612228251622" />
-    <state width="1256" height="345" key="GridCell.Tab.0.center" timestamp="1612228251622">
-      <screen x="0" y="0" width="2560" height="1050" />
+    <state width="1259" height="160" key="GridCell.Tab.0.center" timestamp="1612283935911">
+      <screen x="1366" y="0" width="1280" height="690" />
     </state>
+    <state width="1259" height="160" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1280.690@1366.0.1280.690" timestamp="1612283935911" />
     <state width="1256" height="345" key="GridCell.Tab.0.center/0.0.2560.1050@0.0.2560.1050" timestamp="1612228251622" />
-    <state width="1256" height="345" key="GridCell.Tab.0.left" timestamp="1612228251622">
-      <screen x="0" y="0" width="2560" height="1050" />
+    <state width="1259" height="160" key="GridCell.Tab.0.left" timestamp="1612283935911">
+      <screen x="1366" y="0" width="1280" height="690" />
     </state>
+    <state width="1259" height="160" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1280.690@1366.0.1280.690" timestamp="1612283935911" />
     <state width="1256" height="345" key="GridCell.Tab.0.left/0.0.2560.1050@0.0.2560.1050" timestamp="1612228251622" />
-    <state width="1256" height="345" key="GridCell.Tab.0.right" timestamp="1612228251622">
-      <screen x="0" y="0" width="2560" height="1050" />
+    <state width="1259" height="160" key="GridCell.Tab.0.right" timestamp="1612283935911">
+      <screen x="1366" y="0" width="1280" height="690" />
     </state>
+    <state width="1259" height="160" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1280.690@1366.0.1280.690" timestamp="1612283935911" />
     <state width="1256" height="345" key="GridCell.Tab.0.right/0.0.2560.1050@0.0.2560.1050" timestamp="1612228251622" />
     <state width="1256" height="345" key="GridCell.Tab.1.bottom" timestamp="1612228251622">
       <screen x="0" y="0" width="2560" height="1050" />
@@ -197,13 +204,18 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1256" height="345" key="GridCell.Tab.3.right/0.0.2560.1050@0.0.2560.1050" timestamp="1612228251623" />
+    <state x="1714" y="62" width="583" height="566" key="find.popup" timestamp="1612281227653">
+      <screen x="1366" y="0" width="1280" height="690" />
+    </state>
+    <state x="1714" y="62" width="583" height="566" key="find.popup/0.0.1366.738/1366.0.1280.690@1366.0.1280.690" timestamp="1612281227653" />
     <state x="1576" y="245" key="run.anything.popup" timestamp="1612129878202">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="1576" y="245" key="run.anything.popup/0.0.2560.1050@0.0.2560.1050" timestamp="1612129878202" />
-    <state x="1583" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1612130022573">
-      <screen x="0" y="0" width="2560" height="1050" />
+    <state x="2158" y="152" width="672" height="446" key="search.everywhere.popup" timestamp="1612282911396">
+      <screen x="1366" y="0" width="1280" height="690" />
     </state>
+    <state x="2158" y="152" width="672" height="446" key="search.everywhere.popup/0.0.1366.738/1366.0.1280.690@1366.0.1280.690" timestamp="1612282911396" />
     <state x="1583" y="231" width="672" height="678" key="search.everywhere.popup/0.0.2560.1050@0.0.2560.1050" timestamp="1612130022573" />
   </component>
   <component name="XDebuggerManager">
@@ -212,20 +224,23 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/controllers/AuthController.ts</url>
           <line>8</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/controllers/AuthController.ts</url>
           <line>27</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/controllers/AuthController.ts</url>
           <line>20</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app.ts</url>
+          <line>9</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
