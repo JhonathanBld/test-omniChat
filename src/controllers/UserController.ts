@@ -8,6 +8,7 @@ class UserController {
             const users = await User.find();
             return res.json(users);
         } catch (error) {
+            console.log('Erro ao buscar usuarios' , JSON.stringify(error));
             return res.status(500).json(error);
         }
     }
@@ -21,6 +22,7 @@ class UserController {
             const user = await User.create(req.body);
             return res.send({user});
         } catch (error) {
+            console.log('Erro ao salvar usuario' , JSON.stringify(error));
             return res.status(400).json(error);
         }
     }
@@ -34,6 +36,7 @@ class UserController {
             return res.json(user);
 
         } catch (error) {
+            console.log(`Erro ao consultar usuario com o id ${req.params.id}` , JSON.stringify(error));
             return res.status(500).json(error);
         }
     }
@@ -46,6 +49,7 @@ class UserController {
 
             return res.json(user);
         } catch (error) {
+            console.log(`Erro ao atualizar usuario com o id ${req.params.id}` , JSON.stringify(error));
             return res.status(500).json(error);
         }
     }
@@ -58,6 +62,7 @@ class UserController {
 
             return res.json(user);
         } catch (error) {
+            console.log(`Erro ao deletar usuario com o id ${req.params.id}` , JSON.stringify(error));
             return res.status(500).json(error);
         }
     }

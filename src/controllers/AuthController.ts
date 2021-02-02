@@ -20,11 +20,13 @@ class AuthController {
 
             return res.send({user, token});
         } catch (error) {
+            console.log('Erro ao realizar o cadastro' , JSON.stringify(error));
             return res.status(400).json(error);
         }
     }
 
     public async login(req: Request, res: Response) {
+        try {
         const {email, password} = req.body;
 
         const user = await User.findOne({email}).select('+password');
@@ -40,6 +42,10 @@ class AuthController {
         user.password = undefined;
 
         res.send({user, token});
+
+        } catch (error) {
+            console.log(`Erro ao realizar o login` , JSON.stringify(error));
+        }
     }
 }
 
