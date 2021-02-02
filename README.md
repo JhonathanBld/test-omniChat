@@ -10,7 +10,7 @@ $ cd test-omniChat
 ## Instale as dependências
 $ npm install
 
-###### Necessario estar rodando o serviço do mongo, e na porta padrão;
+Necessario estar rodando o serviço do mongo;
 
 ## Execute a aplicação em modo de desenvolvimento
 $ npm run dev
