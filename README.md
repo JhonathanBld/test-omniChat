@@ -1,7 +1,5 @@
 # test-omniChat
 
-* [Instalação](#instalacao)
-
 # Clone este repositório
 $ git clone <https://github.com/JhonathanBld/test-omniChat.git>
 
@@ -17,11 +15,10 @@ $ npm run dev
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 
-* [Tests](#testes)
 # Execute os testes via terminar
 $ npm run test
 
-* [Tecnologias](#tecnologias)
+# Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
 - [Express](http://expressjs.com/pt-br/)
