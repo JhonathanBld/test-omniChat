@@ -28,3 +28,52 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [MongoDb](https://www.mongodb.com/)
 - [Jest](https://jestjs.io/)
 
+## End-points
+
+METODO - POST
+http://localhost:3000/auth/register
+
+```json
+{
+	"email" : "emailteste@teste.com",
+	"name": "teste",
+	"password": "teste"
+}
+```
+METODO - POST
+http://localhost:3000/auth/login
+
+
+```json
+{
+	"email" : "emailteste@teste.com",
+	"name": "teste",
+	"password": "teste"
+}
+```
+
+Ambos geram e retornam oken para consumir o end-point de usuarios
+
+METODO - GET
+http://localhost:3000/users/
+
+Consulta todos os usuarios
+
+METODO - GET
+http://localhost:3000/users/:id
+
+Consulta usuario a partir do id
+
+METODO - PUT
+http://localhost:3000/users/:id
+```json
+{
+	"email" : "emailteste@teste.com",
+	"name": "teste"
+}
+Altera informações do usuario
+
+METODO - DELETE
+http://localhost:3000/users/:id
+
+Remove o usuario a partir do id
